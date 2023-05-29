@@ -1,0 +1,65 @@
+.body1{
+    width: 100vw;
+    height: 320px;
+    background-image: url(https://aasthy.com/static/media/app-banner-background-desktop.5dd3c2c0.svg);
+    background-position: center;
+    display: flex;
+}
+.left{
+    width: 50%;
+    /* background-color: aqua; */
+    padding: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+.left h1{
+    font-size: 46px;
+    
+    /* padding: 5px; */
+
+    /* padding-bottom: 20px; */
+}
+.left p{
+    font-size: 24px;
+}
+
+
+.mid{
+    width: 20%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right{
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.right img{
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+    /* text-align: center; */
+}
+.appbtn{
+    padding: 13px 15px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-weight: 500;
+    color: white;
+    font-size: 17px;
+    margin: 10px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
