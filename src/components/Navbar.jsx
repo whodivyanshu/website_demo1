@@ -26,9 +26,11 @@ const Navbar = () => {
         
         <li className='navbar-btn navbar-menu-item' style={{color: "#4e0668"}}> <img id='imgg' width="20" height="20"  src="https://img.icons8.com/fluency-systems-regular/48/4E0668/gift--v1.png" alt="gift--v1"/> Refer & Earn</li>
         <li className="navbar-menu-item"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/4E0668/headset.png" alt="headset"/></li>
-        <li className="navbar-menu-item userid">
-            D
-        </li>
+        <li className="navbar-menu-item">
+  <button style={{ backgroundColor: '#4e0668', color: '#fff' }}>Sign In</button>
+</li>
+        <li className="navbar-menu-item"><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/4E0668/headset.png" alt="headset"/></li>
+
       </ul>
     </nav>
   );

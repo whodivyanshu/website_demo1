@@ -3,6 +3,8 @@ import './body2.css';
 
 const Body2 = () => {
     return (
+        <div className='body21'>
+
         <div className='body2'>
             <div className="left1">
                 <h1>Making real estate <br /> investments
@@ -12,12 +14,29 @@ const Body2 = () => {
                 </h1>
                 <p>12-18% returns <br />
 starting from only ₹5,000</p>
+                <button>Explore Opportunities</button>
             </div>
             <div className="right1">
-                <h3>Welcome, Divyanshu</h3>
-                <p>Start your high-return investment journey with our carefuly curated <br /> fractional investments starting at just <span style={{fontWeight: "bold", color:"black"}}>₹5,000.</span> </p>
-                <p>Use your earned  <span style={{fontWeight: "bold", color:"black"}}>₹0</span> Aasthy Credits with your first investment now!</p>
+                <img src="https://aasthy.com/static/media/hero-location-image.72e4d501.svg" alt="" />
             </div>
+
+        </div>
+        <div className="body22">
+            <ul>
+                <li>50M+
+                    <br />
+Data Points</li>
+                <li>
+                98% <br />
+Data Accuracy
+                </li>
+                <li>300+ <br />
+Cities</li>
+
+        <li>500+ <br />
+Investors</li>
+            </ul>
+        </div>
         </div>
     )
 }
