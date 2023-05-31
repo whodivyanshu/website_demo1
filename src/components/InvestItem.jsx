@@ -5,7 +5,8 @@ const InvestItem = () => {
   return (
     <div className="invest-item">
       <div className="invest-img">
-
+        <h6 style={{color: "white", fontSize: "10px", padding: "10px", fontFamily: "monospace"}}>Hebron Avenue <br />
+Bangalore</h6>
       </div>
       <p style={{ padding: "0px 10px" }}>1 Unit</p>
       <hr className='hr' />
