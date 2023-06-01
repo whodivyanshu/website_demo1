@@ -2,6 +2,9 @@ import React from 'react'
 import "./InvestItem.css";
 
 const InvestItem = () => {
+
+  
+
   return (
     <div className="invest-item">
       <div className="invest-img">
