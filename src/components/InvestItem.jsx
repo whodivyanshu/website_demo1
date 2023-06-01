@@ -1,9 +1,31 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import "./InvestItem.css";
+import { database } from '../firebase';
+import { collection, getDocs } from 'firebase/firestore';
 
 const InvestItem = () => {
+  const collectionRef = collection(database, "properties");
+  const [properties, setProperties] = useState([]);
 
-  
+  useEffect(() => {
+    const fetchProperties = async () => {
+      try {
+        const querySnapshot = await getDocs(collectionRef);
+        const fetchedProperties = [];
+        querySnapshot.forEach((doc) => {
+          fetchedProperties.push({ id: doc.id, ...doc.data() });
+        });
+        setProperties(fetchedProperties);
+      } catch (error) {
+        console.error("Error fetching properties:", error);
+      }
+    };
+
+    fetchProperties();
+  }, []);
+
+  // console.log(properties);
+
 
   return (
     <div className="invest-item">
