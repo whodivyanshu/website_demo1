@@ -24,7 +24,7 @@ const Body3 = () => {
     };
 
     fetchProperties();
-  }, []);
+  },);
 
   console.log(properties);
 

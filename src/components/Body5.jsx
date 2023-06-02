@@ -35,7 +35,7 @@ const Body5 = () => {
         },
       },
     });
-  }, []);
+  },);
 
   return (
     <div className="body5">
