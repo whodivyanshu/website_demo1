@@ -3,6 +3,7 @@ import './body3.css';
 import InvestItem from './InvestItem';
 import { database } from '../firebase';
 import { collection, getDocs } from 'firebase/firestore';
+import { Link } from 'react-router-dom';
 
 
 const Body3 = () => {
@@ -28,6 +29,7 @@ const Body3 = () => {
 
   console.log(properties);
 
+
   return (
     <div className='body3'>
     <h1>Fractional Investment Properties</h1>
@@ -35,6 +37,8 @@ const Body3 = () => {
     <div className="invest-items-container">
       <div className="invest-items">
         {properties.map((property) => (
+          <Link to="/admin" className="link-no-underline" key={property.id} >
+
           <InvestItem
             key={property.id}
             funded={property.funded}
@@ -46,7 +50,10 @@ const Body3 = () => {
             name={property.name}
             returns={property.returns}
             percentagefunded = {property.percentagefunded}
-          />
+            
+            />
+            
+            </Link>
         ))}
       </div>
     </div>

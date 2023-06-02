@@ -11,6 +11,13 @@
     .images{
         display: flex;
         padding-top: 20px;
+        
+    }
+    .details-container{
+        overflow: scroll;
+        display: flex;
+        max-height: 400px; /* Adjust the height as needed */
+        overflow-y: auto;
     }
     .images img{
         padding-right: 20px;
@@ -65,14 +72,25 @@
 .details{
     margin-top: 50px;
     display: flex;
+    overflow: auto;
     justify-content: space-between;
 }
+@media (max-width: 500px) {
+    .details {
+      flex-wrap: wrap;
+      
+    }
+    .body71{
+        padding: 20px;
+    }
+  }
 ol{
     list-style-type: disc;
     padding-left: 20px;
 }
 .detail1{
     width: 47%;
+
 }
 .detail2{
     width: 47%;

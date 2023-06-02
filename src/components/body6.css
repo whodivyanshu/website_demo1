@@ -12,3 +12,8 @@
 .body6 p{
     line-height: 80px;
 }
+@media (max-width: 500px){
+    .body6 p{
+        line-height: 25px;
+    }
+}

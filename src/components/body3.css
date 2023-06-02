@@ -10,7 +10,9 @@
     font-weight: 1900;
     line-height: 40px;
   }
-  
+  .link-no-underline {
+    text-decoration: none;
+  }
   .invest-items-container {
     overflow-x: auto;
     overflow-y: hidden;

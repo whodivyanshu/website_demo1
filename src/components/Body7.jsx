@@ -13,9 +13,12 @@ const Body7 = () => {
         <h3>Ramamurthy Nagar, Bangalore- Hebron Avenue</h3>
         <p><img width="15" height="15" src="https://img.icons8.com/ios/50/8C898D/marker--v1.png" alt="marker--v1"/> Ramamurthy Nagar, Bangalore </p>
         <div className="images">
+            <div className="details-container">
+
         <img src="https://production-public-asset-images.s3.ap-south-1.amazonaws.com/asset-24d78e0b-b156-4dc9-b905-e25e18917a77-1" className='image1' alt="1" border="0"/>
         <img src="https://production-public-asset-images.s3.ap-south-1.amazonaws.com/asset-24d78e0b-b156-4dc9-b905-e25e18917a77-2" className='image2' alt="1" border="0"/>
         <img src="https://production-public-asset-images.s3.ap-south-1.amazonaws.com/asset-24d78e0b-b156-4dc9-b905-e25e18917a77-3" alt="1" className='image3' border="0"/>
+            </div>
         
         </div>
         <h5>Posted at Mar 11, 2023 • <img src={imageee} alt="" /> <span>Guaranteed Builder Buyback</span>  </h5>
