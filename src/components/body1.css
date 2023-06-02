@@ -15,6 +15,9 @@
 
 
 }
+.left button{
+    display: none;
+}
 .left h1{
     font-size: 46px;
     
@@ -65,3 +68,52 @@ button{
     justify-content: space-evenly;
     
 }
+@media (max-width: 1260px) {
+    .left h1 {
+      font-size: 36px;
+    }
+    .left p{
+        font-size: 20px;
+    }
+  }
+@media (max-width: 851px) {
+    .left h1 {
+      font-size: 30px;
+
+    }
+    .left p{
+        font-size: 15px;
+    }
+  }
+@media (max-width: 737px) {
+    .left{
+        padding: 30px;
+        width: 40%;
+    }
+    .left h1 {
+      font-size: 17px;
+
+    }
+    .left p{
+        font-size: 10px;
+    }
+    .mid button{
+        display: none;
+    }
+    .right{
+        width: 50%;
+        overflow: visible;
+    }
+    .right img{
+        width: 200px;
+        height: 100%;
+        object-fit: contain;
+
+    }
+    .left button{
+        display: block;
+        padding: 10px;
+        width: 100px;
+        font-size: 10px;
+    }
+  }

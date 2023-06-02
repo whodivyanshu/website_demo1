@@ -8,6 +8,8 @@ const Body1 = () => {
           Playstore and Appstore!</h1>
         <p style={{color: "white"}} >Tracking your investments got <br />
           a whole lot easier!</p>
+          <button className='appbtn'> <img width="20" height="20" src="https://img.icons8.com/ios/50/FFFFFF/google-play--v1.png" alt="google-play--v1" /> Google Play</button>
+        <button className='appbtn' > <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/mac-os.png" alt="mac-os" />App Store</button>
       </div>
       <div className="mid">
         <button className='appbtn'> <img width="20" height="20" src="https://img.icons8.com/ios/50/FFFFFF/google-play--v1.png" alt="google-play--v1" /> Google Play</button>
