@@ -1,0 +1,91 @@
+    .body7{
+        padding-top: 80px;
+    }
+    .body71{
+        padding: 30px 90px;
+        line-height: 30px;
+    }
+    .body7 p{
+        color: #8C898D;
+    }
+    .images{
+        display: flex;
+        padding-top: 20px;
+    }
+    .images img{
+        padding-right: 20px;
+    }
+    h5 img{
+        width: 80px;
+        height: 30px;
+    }
+    h5{
+        justify-content: flex-start;
+        /* align-items: start; */
+        display: flex;
+    }
+   .body7 h5 span{
+    color: #4e0668;
+    font-weight: 100;
+   }
+    .image1 {
+        width: 400px;
+        height: 250px;
+      }
+      
+      .image2 {
+        width: 300px;
+      }
+      
+      .image3 {
+        width: 300px;
+        height: 250px;
+      }
+
+.price{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.price p{
+    font-size: 12px;
+}
+.p1{
+    padding-right: 20px;
+    line-height: 23px;
+}
+.body7 hr{
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #4e0668;
+    border: none;
+    
+}
+.details{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+ol{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.detail1{
+    width: 47%;
+}
+.detail2{
+    width: 47%;
+}
+.detail1 li{
+    font-size: 13px;
+    color: grey;
+    line-height: 20px;
+    font-weight: 100;
+}
+.detail2 li{
+    font-size: 13px;
+    color: grey;
+    line-height: 20px;
+    font-weight: 100;
+}
